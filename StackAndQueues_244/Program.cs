@@ -9,11 +9,18 @@
 
             StackOperationUsingLinkedList stackOperation = new StackOperationUsingLinkedList();
 
-            stackOperation.Push(70);
-            stackOperation.Push(30);
-            stackOperation.Push(56);
-            stackOperation.IsEmpty();
-            stackOperation.Display();
+            //stackOperation.Push(70);
+            //stackOperation.Push(30);
+            //stackOperation.Push(56);
+            //stackOperation.IsEmpty();
+            //stackOperation.Display();
+
+            QueuesOperationUsingLinkedList queueOperation = new QueuesOperationUsingLinkedList();
+            queueOperation.Enqueue(56);
+            queueOperation.Enqueue(30);
+            queueOperation.Enqueue(70);
+            queueOperation.DisplayQueue();
+
 
 
         }
