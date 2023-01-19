@@ -32,7 +32,7 @@ namespace StackAndQueues_244
         {
             if (this.top == null)
             {
-                Console.WriteLine("The stack is emptay");
+                Console.WriteLine("The stack is empty");
                 return;
             }
             else
@@ -66,7 +66,7 @@ namespace StackAndQueues_244
             Node temp = this.top;
             if (temp == null)
             {
-                Console.WriteLine("Stack is Empty");
+                Console.WriteLine("Stack is Emptay");
             }
             else
             {

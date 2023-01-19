@@ -29,6 +29,18 @@ namespace StackAndQueues_244
             Console.WriteLine("{0} inserted into queue ", node.data);
 
         }
+        internal void Dequeue()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("The Queue is Emptay");
+            }
+            else
+            {
+                head = head.next;
+
+            }
+        }
         public void DisplayQueue()
         {
             if (head == null)
@@ -45,6 +57,7 @@ namespace StackAndQueues_244
                 }
             }
         }
+
 
     }
 }
